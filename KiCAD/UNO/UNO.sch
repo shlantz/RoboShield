@@ -751,4 +751,280 @@ Text Label 3000 1350 0    60   ~ 0
 IB2
 Text Label 3000 1450 0    60   ~ 0
 IA2
+$Comp
+L Conn_01x04 J11
+U 1 1 5A861055
+P 3500 2050
+F 0 "J11" H 3500 2250 50  0000 C CNN
+F 1 "Conn_01x04" H 3500 1750 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x04_Pitch2.54mm" H 3500 2050 50  0001 C CNN
+F 3 "" H 3500 2050 50  0001 C CNN
+	1    3500 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x02 J12
+U 1 1 5A8610BE
+P 3500 2700
+F 0 "J12" H 3500 2800 50  0000 C CNN
+F 1 "Conn_01x02" H 3500 2500 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x02_Pitch2.54mm" H 3500 2700 50  0001 C CNN
+F 3 "" H 3500 2700 50  0001 C CNN
+	1    3500 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x04 J13
+U 1 1 5A86116B
+P 3500 3450
+F 0 "J13" H 3500 3650 50  0000 C CNN
+F 1 "Conn_01x04" H 3500 3150 50  0001 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x04_Pitch2.54mm" H 3500 3450 50  0001 C CNN
+F 3 "" H 3500 3450 50  0001 C CNN
+	1    3500 3450
+	1    0    0    -1  
+$EndComp
+Text Notes 3700 2100 0    60   ~ 0
+Stepper
+Text Notes 3700 2750 0    60   ~ 0
+Stepper Power
+Text Notes 3700 3450 0    60   ~ 0
+UltraSonic
+Wire Wire Line
+	3300 3350 3250 3350
+Wire Wire Line
+	3250 3350 3250 3300
+Wire Wire Line
+	3300 3650 3250 3650
+Wire Wire Line
+	3250 3650 3250 3700
+Wire Wire Line
+	3300 3450 2850 3450
+Wire Wire Line
+	3300 3550 2850 3550
+$Comp
+L +5V #PWR025
+U 1 1 5A86159C
+P 3250 3300
+F 0 "#PWR025" H 3250 3150 50  0001 C CNN
+F 1 "+5V" H 3250 3440 50  0000 C CNN
+F 2 "" H 3250 3300 50  0001 C CNN
+F 3 "" H 3250 3300 50  0001 C CNN
+	1    3250 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR026
+U 1 1 5A8615DA
+P 3250 3700
+F 0 "#PWR026" H 3250 3450 50  0001 C CNN
+F 1 "GND" H 3250 3550 50  0000 C CNN
+F 2 "" H 3250 3700 50  0001 C CNN
+F 3 "" H 3250 3700 50  0001 C CNN
+	1    3250 3700
+	1    0    0    -1  
+$EndComp
+Text Label 2950 3450 0    60   ~ 0
+Trig
+Text Label 2950 3550 0    60   ~ 0
+Echo
+$Comp
+L +5V #PWR027
+U 1 1 5A861924
+P 3250 2650
+F 0 "#PWR027" H 3250 2500 50  0001 C CNN
+F 1 "+5V" H 3250 2790 50  0000 C CNN
+F 2 "" H 3250 2650 50  0001 C CNN
+F 3 "" H 3250 2650 50  0001 C CNN
+	1    3250 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR028
+U 1 1 5A861962
+P 3250 2850
+F 0 "#PWR028" H 3250 2600 50  0001 C CNN
+F 1 "GND" H 3250 2700 50  0000 C CNN
+F 2 "" H 3250 2850 50  0001 C CNN
+F 3 "" H 3250 2850 50  0001 C CNN
+	1    3250 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 2650 3250 2700
+Wire Wire Line
+	3250 2700 3300 2700
+Wire Wire Line
+	3300 2800 3250 2800
+Wire Wire Line
+	3250 2800 3250 2850
+$Comp
+L Conn_01x04 J16
+U 1 1 5A861D8C
+P 3500 7050
+F 0 "J16" H 3500 7250 50  0000 C CNN
+F 1 "Conn_01x04" H 3500 6750 50  0001 C CNN
+F 2 "Socket_Strips:Socket_Strip_Angled_1x04_Pitch2.54mm" H 3500 7050 50  0001 C CNN
+F 3 "" H 3500 7050 50  0001 C CNN
+	1    3500 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x04 J15
+U 1 1 5A861F6A
+P 3500 6300
+F 0 "J15" H 3500 6500 50  0000 C CNN
+F 1 "Conn_01x04" H 3500 6000 50  0001 C CNN
+F 2 "Socket_Strips:Socket_Strip_Angled_1x04_Pitch2.54mm" H 3500 6300 50  0001 C CNN
+F 3 "" H 3500 6300 50  0001 C CNN
+	1    3500 6300
+	1    0    0    -1  
+$EndComp
+Text Notes 3750 6300 0    60   ~ 0
+RGB2
+Text Notes 3750 7100 0    60   ~ 0
+RGB3
+Text Notes 3750 5600 0    60   ~ 0
+RGB1
+$Comp
+L Conn_01x04 J14
+U 1 1 5A86207A
+P 3500 5550
+F 0 "J14" H 3500 5750 50  0000 C CNN
+F 1 "Conn_01x04" H 3500 5250 50  0001 C CNN
+F 2 "Socket_Strips:Socket_Strip_Angled_1x04_Pitch2.54mm" H 3500 5550 50  0001 C CNN
+F 3 "" H 3500 5550 50  0001 C CNN
+	1    3500 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 6500 3250 6500
+Wire Wire Line
+	3250 6500 3250 6550
+Wire Wire Line
+	3300 7250 3250 7250
+Wire Wire Line
+	3250 7250 3250 7300
+Wire Wire Line
+	3300 5750 3250 5750
+Wire Wire Line
+	3250 5750 3250 5800
+Wire Wire Line
+	3300 5450 2900 5450
+Wire Wire Line
+	3300 5550 2900 5550
+Wire Wire Line
+	3300 5650 2900 5650
+Wire Wire Line
+	3300 6200 2900 6200
+Wire Wire Line
+	3300 6300 2900 6300
+Wire Wire Line
+	3300 6400 2900 6400
+Wire Wire Line
+	3300 6950 2900 6950
+Wire Wire Line
+	3300 7050 2900 7050
+Wire Wire Line
+	3300 7150 2900 7150
+Text Label 2950 5450 0    60   ~ 0
+B1
+Text Label 2950 6200 0    60   ~ 0
+B2
+Text Label 2950 6950 0    60   ~ 0
+B3
+Text Label 2950 7050 0    60   ~ 0
+G3
+Text Label 2950 6300 0    60   ~ 0
+G2
+Text Label 2950 5550 0    60   ~ 0
+G1
+Text Label 2950 7150 0    60   ~ 0
+R3
+Text Label 2950 6400 0    60   ~ 0
+R2
+Text Label 2950 5650 0    60   ~ 0
+R1
+$Comp
+L GND #PWR029
+U 1 1 5A862C32
+P 3250 5800
+F 0 "#PWR029" H 3250 5550 50  0001 C CNN
+F 1 "GND" H 3250 5650 50  0000 C CNN
+F 2 "" H 3250 5800 50  0001 C CNN
+F 3 "" H 3250 5800 50  0001 C CNN
+	1    3250 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR030
+U 1 1 5A862C79
+P 3250 6550
+F 0 "#PWR030" H 3250 6300 50  0001 C CNN
+F 1 "GND" H 3250 6400 50  0000 C CNN
+F 2 "" H 3250 6550 50  0001 C CNN
+F 3 "" H 3250 6550 50  0001 C CNN
+	1    3250 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR031
+U 1 1 5A862CC0
+P 3250 7300
+F 0 "#PWR031" H 3250 7050 50  0001 C CNN
+F 1 "GND" H 3250 7150 50  0000 C CNN
+F 2 "" H 3250 7300 50  0001 C CNN
+F 3 "" H 3250 7300 50  0001 C CNN
+	1    3250 7300
+	1    0    0    -1  
+$EndComp
+Text Notes 6600 4500 0    60   ~ 0
+TM1637 7Seg
+Wire Wire Line
+	6000 4700 6300 4700
+Wire Wire Line
+	6000 4600 6300 4600
+Text Label 6050 4700 0    60   ~ 0
+Clk
+Text Label 6050 4600 0    60   ~ 0
+DIO
+$Comp
+L GND #PWR032
+U 1 1 5A863D92
+P 6000 4500
+F 0 "#PWR032" H 6000 4250 50  0001 C CNN
+F 1 "GND" H 6000 4350 50  0000 C CNN
+F 2 "" H 6000 4500 50  0001 C CNN
+F 3 "" H 6000 4500 50  0001 C CNN
+	1    6000 4500
+	0    1    1    0   
+$EndComp
+$Comp
+L +5V #PWR033
+U 1 1 5A863DDC
+P 6250 4350
+F 0 "#PWR033" H 6250 4200 50  0001 C CNN
+F 1 "+5V" H 6250 4490 50  0000 C CNN
+F 2 "" H 6250 4350 50  0001 C CNN
+F 3 "" H 6250 4350 50  0001 C CNN
+	1    6250 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x04 J17
+U 1 1 5A863FE2
+P 6500 4500
+F 0 "J17" H 6500 4700 50  0000 C CNN
+F 1 "Conn_01x04" H 6500 4200 50  0001 C CNN
+F 2 "Socket_Strips:Socket_Strip_Angled_1x04_Pitch2.54mm" H 6500 4500 50  0001 C CNN
+F 3 "" H 6500 4500 50  0001 C CNN
+	1    6500 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 4500 6000 4500
+Wire Wire Line
+	6250 4400 6300 4400
+Wire Wire Line
+	6250 4350 6250 4400
 $EndSCHEMATC
